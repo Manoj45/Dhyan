@@ -1,0 +1,101 @@
+<html>
+    <link href="style.css" text="text/css" rel="stylesheet" >  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <style>
+      body {
+        
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      </style>
+      <body bgcolor="paleturquoise">
+    <h1>NASA</h1>
+    <br>
+    <br>
+    <br>
+<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup()">×</div>
+      <h2>&#8226 Project Artemis</h2>
+      <p>With the Artemis program, NASA will land the first woman and next man on the Moon by 2024, using innovative technologies to explore more of the lunar surface than ever before. We will collaborate with our commercial and international partners and establish sustainable exploration by the end of the decade. Then, we will use what we learn on and around the Moon to take the next giant leap – sending astronauts to Mars.</p>
+    </div>
+  </div>
+  <div class="popup" id="popup-2">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="myfunction()">×</div>
+      <h2>&#8226 Juno-Mission at Jupiter</h2>
+      <p>Juno's principal goal is to understand the origin and evolution of Jupiter. Underneath its dense cloud cover, Jupiter safeguards secrets to the fundamental processes and conditions that governed our solar system during its formation. As our primary example of a giant planet, Jupiter can also provide critical knowledge for understanding the planetary systems being discovered around other stars.With its suite of science instruments, Juno will investigate the existence of a solid planetary core, map Jupiter's intense magnetic field, measure the amount of water and ammonia in the deep atmosphere, and observe the planet's auroras.Juno will let us take a giant step forward in our understanding of how giant planets form and the role these titans played in putting together the rest of the solar system.</p>
+    </div>
+  </div>
+  <div class="popup" id="popup-3">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="myfunc()">×</div>
+      <h2>Skylab (1965–1979)</h2>
+      <p>Skylab was the United States' first and only independently built space station.Conceived in 1965 as a workshop to be constructed in space from a spent Saturn IB upper stage, the 169,950 lb (77,088 kg) station was constructed on Earth and launched on May 14, 1973, atop the first two stages of a Saturn V, into a 235-nautical-mile (435 km) orbit inclined at 50° to the equator. Damaged during launch by the loss of its thermal protection and one electricity-generating solar panel, it was repaired to functionality by its first crew. It was occupied for a total of 171 days by 3 successive crews in 1973 and 1974. It included a laboratory for studying the effects of microgravity, and a solar observatory. NASA planned to have a Space Shuttle dock with it, and elevate Skylab to a higher safe altitude, but the Shuttle was not ready for flight before Skylab's re-entry on July 11, 1979</p>
+    </div>
+  </div>
+  <div class="popup" id="popup-4">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="PSLV()">×</div>
+      <h2>&#8226 James Webb Space Telescope</h2>
+      <p>The James Webb Space Telescope (sometimes called JWST or Webb) will be a large infrared telescope with a 6.5-meter primary mirror. The telescope will be launched on an Ariane 5 rocket from French Guiana in 2021.
+
+        The Webb telescope will be the premier observatory of the next decade, serving thousands of astronomers worldwide. It will study every phase in the history of our Universe, ranging from the first luminous glows after the Big Bang, to the formation of solar systems capable of supporting life on planets like Earth, to the evolution of our own Solar System.
+
+        The Webb telescope was formerly known as the "Next Generation Space Telescope" (NGST); it was renamed in September 2002 after a former NASA administrator, James Webb.</p>
+    </div>
+    </div>
+  <br>
+  <br>
+  <br>
+  <div class="boxed1">
+  <div class="info">
+    <h3>&#8226 Project Artemis</h3>
+    <p style="font-size: 3vmin;">With the Artemis program, NASA will land the first woman and next man on the Moon by 2024, using innovative technologies to explore more of the lunar surface than ever before.</p>
+    <button onclick="togglePopup()">View more</button>
+  </div>
+  </div>
+
+  <div class="boxed2">
+    <h3>Skylab (1965–1979)</h3>
+    <p style="font-size: 3vmin;">Skylab was the United States' first and only independently built space station.Conceived in 1965 as a workshop to be constructed in space from a spent Saturn IB upper stage, the 169,950 lb</p>
+    <br>
+    <button onclick="myfunc()">View more</button>
+  </div>
+
+  <div class="boxed3">
+    <h3>&#8226 Juno-Mission at Jupiter</h3>
+    <p style="font-size: 3vmin;">Juno's principal goal is to understand the origin and evolution of Jupiter. Underneath its dense cloud cover, Jupiter safeguards secrets to the fundamental processes.</p>
+    <br>
+    <button onclick="myfunction()">View more</button>
+  </div>
+
+  <div class="boxed4">
+    <h3>&#8226 James Webb Space Telescope</h3>
+    <p style="font-size: 3vmin;">The James Webb Space Telescope (sometimes called JWST or Webb) will be a large infrared telescope with a 6.5-meter primary mirror</p>
+    <br>
+    <button onclick="PSLV()">View more</button>
+  </div>
+    </body>
+   
+  
+<script>
+  function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+  }
+  function myfunction(){
+    document.getElementById("popup-2").classList.toggle("active");
+  }
+  function myfunc(){
+    document.getElementById("popup-3").classList.toggle("active");
+  }
+  function PSLV(){
+    document.getElementById("popup-4").classList.toggle("active");
+  }
+</script>
+  </html>

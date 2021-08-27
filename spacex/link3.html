@@ -1,0 +1,101 @@
+<html>
+    <link href="style.css" text="text/css" rel="stylesheet" >  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <style>
+      body {
+        
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      </style>
+      <body bgcolor="paleturquoise">
+    <h1>Space X</h1>
+    <br>
+    <br>
+    <br>
+<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup()">×</div>
+      <h2>8226Anasis II</h2>
+      <p>On Monday, July 20 at 5:00 p.m., SpaceX’s Falcon 9 launched the ANASIS-II mission from Space Launch Complex 40 (SLC-40) at Cape Canaveral Air Force Station in Florida. Falcon 9’s first stage previously launched Crew Dragon to the International Space Station with NASA astronauts Bob Behnken and Doug Hurley on board.</p>
+    </div>
+  </div>
+  <div class="popup" id="popup-2">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="myfunction()">×</div>
+      <h2>8226 Reusable launch system</h2>
+      <p>SpaceX's reusable launcher program was publicly announced in 2011 and the design phase was completed in February 2012. The system returns the first stage of a Falcon 9 rocket to a predetermined landing site using only its own propulsion systems.SpaceX's active test program began in late 2012 with testing low-altitude, low-speed aspects of the landing technology. The prototypes of Falcon 9 performed vertical takeoffs and landings.High-velocity, high-altitude aspects of the booster atmospheric return technology began testing in late 2013 and have continued through 2018, with a 98% success rate to date. As a result of Elon Musk's goal of crafting more cost-effective launch vehicles, SpaceX conceived a method to reuse the first stage of their primary rocket, the Falcon 9,[152] by attempting propulsive vertical landings on solid surfaces. Once the company determined that soft landings were feasible by touching down over the Atlantic and Pacific Ocean, they began landing attempts on a solid platform. SpaceX leased and modified several barges to sit out at sea as a target for the returning first stage, converting them to autonomous spaceport drone ships (ASDS).</p>
+    </div>
+  </div>
+  <div class="popup" id="popup-3">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="myfunc()">×</div>
+      <h2>LVM X/Care Mission</h2>
+      <p>LVM3-X/CARE Mission, the first experimental suborbital flight of India's latest generation Launch Vehicle- LVM3, lifted off from Satish Dhawan Space Centre SHAR, Sriharikota, on December 18, 2014 and injected the Crew Module CARE at an altitude of 126km. The Crew Module splashed down near Andaman and Nicobar Islands in the Bay of Bengal about twenty minutes after lift off. The Crew Module was recovered by the Indian Coast Guard. This flight of LVM3 had a passive cryogenic stage.</p>
+    </div>
+  </div>
+  <div class="popup" id="popup-4">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="PSLV()">×</div>
+      <h2>PSLV-C51/Amazonia-1</h2>
+      <p>India’s Polar Satellite Launch Vehicle PSLV-C51 successfully launched Amazonia-1 along with 18 co-passenger satellites today (February 28, 2021) from Satish Dhawan Space Centre SHAR, Sriharikota.
+
+        PSLV-C51 lifted off from the First Launch Pad of SDSC SHAR at 10:24 hours (IST) as planned. After a flight of about 17 minutes 23 seconds, the vehicle injected the Amazonia-1 into its intended orbit and in the succeeding 1 hour 38 minutes, all the 18 co-passenger satellites successfully separated from the PSLV in a predetermined sequence.PSLV-C51/Amazonia-1 is the first dedicated commercial mission of NewSpace India Limited (NSIL), a Government of India company under Department of Space.
+
+        The 18 co-passenger satellites onboard PSLV-C51 includes four from IN-SPACe and fourteen from NSIL. Out of 4 satellites from IN-SPACe, three were UNITYsats designed and built as a joint development by Jeppiaar Institute of Technology, Sriperumbudur (JITsat), G.H.Raisoni College of Engineering, Nagpur (GHRCEsat) and Sri Shakti Institute of Engineering and Technology, Coimbatore (Sri Shakthi Sat) and one was Satish Dhawan Sat (SDSAT) from Space Kidz India. The fourteen satellites from NSIL carried were the commercial satellites from India (1) and USA (13).</p>
+    </div>
+    </div>
+  <br>
+  <br>
+  <br>
+  <div class="boxed1">
+  <div class="info">
+    <h3>8226Anasis II</h3>
+    <p style="font-size: 3vmin;">On Monday, July 20 at 5:00 p.m., SpaceX’s Falcon 9 launched the ANASIS-II mission from Space Launch Complex 40 (SLC-40) at Cape Canaveral Air Force Station in Florida.</p>
+    <button onclick="togglePopup()">View more</button>
+  </div>
+  </div>
+
+  <div class="boxed2">
+    <h3>8226 Reusable launch system</h3>
+    <p style="font-size: 3vmin;">SpaceX's reusable launcher program was publicly announced in 2011 and the design phase was completed in February 2012. The system returns the first stage of a Falcon 9 rocket</p>
+    <br>
+    <button onclick="myfunc()">View more</button>
+  </div>
+
+  <div class="boxed3">
+    <h3>Mars Orbiter Mission</h3>
+    <p style="font-size: 3vmin;">Marking India's first venture into the interplanetary space, MOM will explore and observe Mars surface features, morphology, mineralogy and the Martian atmosphere.</p>
+    <br>
+    <button onclick="myfunction()">View more</button>
+  </div>
+
+  <div class="boxed4">
+    <h3>PSLV-C51/Amazonia-1</h3>
+    <p style="font-size: 3vmin;">India’s Polar Satellite Launch Vehicle PSLV-C51 successfully launched Amazonia-1 along with 18 co-passenger satellites today (February 28, 2021) from Satish Dhawan Space Centre SHAR, Sriharikota.</p>
+    <br>
+    <button onclick="PSLV()">View more</button>
+  </div>
+    </body>
+   
+  
+<script>
+  function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+  }
+  function myfunction(){
+    document.getElementById("popup-2").classList.toggle("active");
+  }
+  function myfunc(){
+    document.getElementById("popup-3").classList.toggle("active");
+  }
+  function PSLV(){
+    document.getElementById("popup-4").classList.toggle("active");
+  }
+</script>
+  </html>

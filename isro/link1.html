@@ -1,0 +1,101 @@
+<html>
+    <link href="style.css" text="text/css" rel="stylesheet" >  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <style>
+      body {
+        
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      </style>
+      <body bgcolor="paleturquoise">
+    <h1>ISRO</h1>
+    <br>
+    <br>
+    <br>
+<div class="popup" id="popup-1">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="togglePopup()">×</div>
+      <h2>GSAT-30</h2>
+      <p>India telecommunication satellite GSAT-30 was successfully launched into a Geosynchronous Transfer Orbit (GTO) on January 17, 2020 from Kourou launch base, French Guiana by Ariane-5 VA-251.GSAT-30 is configured on ISRO enhanced I-3K Bus structure to provide communication services from Geostationary orbit in C and Ku bands. The satellite derives its heritage from ISRO earlier INSAT/GSAT satellite series.</p>
+    </div>
+  </div>
+  <div class="popup" id="popup-2">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="myfunction()">×</div>
+      <h2>Mars Orbiter Mission</h2>
+      <p>Marking India's first venture into the interplanetary space, MOM will explore and observe Mars surface features, morphology, mineralogy and the Martian atmosphere. Further, a specific search for methane in the Martian atmosphere will provide information about the possibility or the past existence of life on the planet. The enormous distances involved in interplanetary missions present a demanding challenge; developing and mastering the technologies essential for these missions will open endless possibilities for space exploration. After leaving Earth, the Orbiter will have to endure the Interplanetary space for 300 days before Mars capture. Apart from deep space communications and navigation-guidance-control capabilities, the mission will require autonomy at the spacecraft end to handle contingencies. Once India decided to go to Mars, ISRO had no time to lose as the nearest launch window was only a few months away and it could not afford to lose the chance, given the next launch would present itself after over 780 days, in 2016. Thus, mission planning, manufacturing the spacecraft and the launch vehicle and readying the support systems took place swiftly.</p>
+    </div>
+  </div>
+  <div class="popup" id="popup-3">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="myfunc()">×</div>
+      <h2>LVM X/Care Mission</h2>
+      <p>LVM3-X/CARE Mission, the first experimental suborbital flight of India's latest generation Launch Vehicle- LVM3, lifted off from Satish Dhawan Space Centre SHAR, Sriharikota, on December 18, 2014 and injected the Crew Module CARE at an altitude of 126km. The Crew Module splashed down near Andaman and Nicobar Islands in the Bay of Bengal about twenty minutes after lift off. The Crew Module was recovered by the Indian Coast Guard. This flight of LVM3 had a passive cryogenic stage.</p>
+    </div>
+  </div>
+  <div class="popup" id="popup-4">
+    <div class="overlay"></div>
+    <div class="content">
+      <div class="close-btn" onclick="PSLV()">×</div>
+      <h2>PSLV-C51/Amazonia-1</h2>
+      <p>India’s Polar Satellite Launch Vehicle PSLV-C51 successfully launched Amazonia-1 along with 18 co-passenger satellites today (February 28, 2021) from Satish Dhawan Space Centre SHAR, Sriharikota.
+
+        PSLV-C51 lifted off from the First Launch Pad of SDSC SHAR at 10:24 hours (IST) as planned. After a flight of about 17 minutes 23 seconds, the vehicle injected the Amazonia-1 into its intended orbit and in the succeeding 1 hour 38 minutes, all the 18 co-passenger satellites successfully separated from the PSLV in a predetermined sequence.PSLV-C51/Amazonia-1 is the first dedicated commercial mission of NewSpace India Limited (NSIL), a Government of India company under Department of Space.
+
+        The 18 co-passenger satellites onboard PSLV-C51 includes four from IN-SPACe and fourteen from NSIL. Out of 4 satellites from IN-SPACe, three were UNITYsats designed and built as a joint development by Jeppiaar Institute of Technology, Sriperumbudur (JITsat), G.H.Raisoni College of Engineering, Nagpur (GHRCEsat) and Sri Shakti Institute of Engineering and Technology, Coimbatore (Sri Shakthi Sat) and one was Satish Dhawan Sat (SDSAT) from Space Kidz India. The fourteen satellites from NSIL carried were the commercial satellites from India (1) and USA (13).</p>
+    </div>
+    </div>
+  <br>
+  <br>
+  <br>
+  <div class="boxed1">
+  <div class="info">
+    <h3>GSAT-30</h3>
+    <p style="font-size: 3vmin;">India telecommunication satellite GSAT-30 was successfully launched into a Geosynchronous Transfer Orbit (GTO) on January 17, 2020 from Kourou launch base, French Guiana by Ariane-5 VA-251</p>
+    <button onclick="togglePopup()">View more</button>
+  </div>
+  </div>
+
+  <div class="boxed2">
+    <h3>LVM X/Care Mission</h3>
+    <p style="font-size: 3vmin;">LVM3 X/CARE Mission, the first experimental suborbital flight of India's latest generation Launch Vehicle- LVM3, lifted off from Satish Dhawan Space Centre SHAR, Sriharikota, on December</p>
+    <br>
+    <button onclick="myfunc()">View more</button>
+  </div>
+
+  <div class="boxed3">
+    <h3>Mars Orbiter Mission</h3>
+    <p style="font-size: 3vmin;">Marking India's first venture into the interplanetary space, MOM will explore and observe Mars surface features, morphology, mineralogy and the Martian atmosphere.</p>
+    <br>
+    <button onclick="myfunction()">View more</button>
+  </div>
+
+  <div class="boxed4">
+    <h3>PSLV-C51/Amazonia-1</h3>
+    <p style="font-size: 3vmin;">India’s Polar Satellite Launch Vehicle PSLV-C51 successfully launched Amazonia-1 along with 18 co-passenger satellites today (February 28, 2021) from Satish Dhawan Space Centre SHAR, Sriharikota.</p>
+    <br>
+    <button onclick="PSLV()">View more</button>
+  </div>
+    </body>
+   
+  
+<script>
+  function togglePopup(){
+    document.getElementById("popup-1").classList.toggle("active");
+  }
+  function myfunction(){
+    document.getElementById("popup-2").classList.toggle("active");
+  }
+  function myfunc(){
+    document.getElementById("popup-3").classList.toggle("active");
+  }
+  function PSLV(){
+    document.getElementById("popup-4").classList.toggle("active");
+  }
+</script>
+  </html>
